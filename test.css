@@ -1,17 +1,13 @@
 p {
   font-family: Georgia;
-  font-size: 12px;
+  font-size: 50px;
   color: black;
 }
 
 div.chapter {
   font-family: Merriweather, serif;
-  font-size: 25px;
+  font-size: 150px;
   color: red;
+  background-color: yellow;
 }
 
-div.paragraph > p {
-  font-family: Merriweather, serif;
-  font-size:16px;
-  color: red;
-}
