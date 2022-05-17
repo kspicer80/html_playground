@@ -10,3 +10,8 @@ div.chapter {
   color: red;
   background-color: yellow;
 }
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
