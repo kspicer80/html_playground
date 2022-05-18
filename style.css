@@ -24,3 +24,11 @@ td {
   border: 1px solid black;
   
 }
+
+header, .row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
