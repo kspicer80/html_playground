@@ -1,36 +1,17 @@
-img {
-  height: 50px;
-  opacity: 0.5;
-}
-
-body {
-  font-family: 'Josefin Sans', sans-serif;
-  color: white;
-  background-color: lightcyan;
-  background-image: url('https://newevolutiondesigns.com/images/freebies/abstract-background-1.jpg');
-}
-
-h1 {
-  font-size: 40px;
-}
-
 p {
-    font-size: 10px;
+  font-family: Georgia;
+  font-size: 20px;
+  color: black;
 }
 
-main {
-  text-align: right;
-  
+div.chapter {
+  font-family: Merriweather, serif;
+  font-size: 30px;
+  color: red;
+  background-color: yellow;
 }
 
-a {
-  color: white;
-}
-
-nav {
-  /*background-color: black;
-  opacity: 0.5;
-  */
-  font-size: 10px;
-  background-color: rgba(0, 0, 0, 0.5)
+table.center {
+  margin-left: auto;
+  margin-right: auto;
 }
