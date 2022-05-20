@@ -32,3 +32,22 @@ header, .row {
 .col {
   flex: 1;
 }
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block; 
+   }
+   
+.box {
+  width: 250px;        
+  border: 5px solid black;
+}    
+
+.box.large{
+  height: 300px;
+}
+
+.box.small{
+   height: 100px;
+}
