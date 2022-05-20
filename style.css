@@ -38,16 +38,16 @@ img {
   max-height: 100%;
   display: block; 
    }
-   
-.box {
-  width: 250px;        
-  border: 5px solid black;
-}    
 
-.box.large{
+.img-hover-zoom {
   height: 300px;
+  overflow: visible;
 }
 
-.box.small{
-   height: 100px;
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
 }
