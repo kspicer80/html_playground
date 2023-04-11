@@ -1,0 +1,10 @@
+body {
+    margin-left: 150px;
+}
+
+div#toc-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+}
