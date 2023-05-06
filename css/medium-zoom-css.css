@@ -1,0 +1,35 @@
+#zoom-container {
+    width: 75%;
+    height: 80%;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    background-color: white;
+    overflow: auto;
+}
+
+.small-image {
+    width: 50px;
+    height: 50px;
+}
+
+#zoom-container img {
+    width: 10%;
+    height: 10%;
+    margin: 0;
+    top: 50px;
+    bottom: 50px;
+}
+
+.medium-zoom-image--opened {
+    /* Remove the small-image class when the image is being zoomed */
+    width: 30% !important;
+    height: auto !important;
+}
+
+/*
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+    z-index: 1500;
+}
+*/

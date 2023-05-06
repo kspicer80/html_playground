@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/medium-zoom-css.css">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 <script src="node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
 </head>
 <body>
 <h1>Testing the "medium-zoom" module ...</h1>
+<div id="zoom-container">
 <div>
-    <img src="img/vangogh_test_image.jpg" align="center" data-zoomable>
+    <img src="img/vangogh_test_image.jpg" align="center" data-zoomable class="small-image">
+</div>
 </div>
 <script>
     const zoom = mediumZoom('img[data-zoomable]');
