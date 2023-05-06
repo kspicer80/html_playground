@@ -23,8 +23,10 @@
 
 .medium-zoom-image--opened {
     /* Remove the small-image class when the image is being zoomed */
-    width: 30% !important;
+    width: 20% !important;
     height: auto !important;
+    z-index: 2000;
+    margin: 0;
 }
 
 /*
