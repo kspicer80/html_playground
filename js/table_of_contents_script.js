@@ -1,12 +1,15 @@
-var toc = document.getElementById('table-of-contents');
+var tocContainer = document.getElementById('toc-container');
 var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
 
 headings.forEach(function(heading) {
     var tocLink = document.createElement('a');
     tocLink.textContent = heading.textContent;
     tocLink.setAttribute('href', '#' + heading.id);
-    toc.appendChild(tocLink);
+    tocContainer.appendChild(tocLink);
 
-    toc.appendChild(document.createElement('br')); // Add line break
+    tocContainer.appendChild(document.createElement('br')); // Add line break
 });
 
+tocContainer.style.position = 'fixed';
+tocContainer.style.top = '0';
+tocContainer.style.left = '0';
