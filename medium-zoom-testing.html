@@ -4,15 +4,14 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 <script src="node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
-<script>
-    const zoomableImages = document.querySelectorAll('img[data-zoomable]');
-    mediumZoom(zoomableImages);
-</script>
 </head>
 <body>
 <h1>Testing the "medium-zoom" module ...</h1>
 <div>
     <img src="img/vangogh_test_image.jpg" align="center" data-zoomable>
 </div>
+<script>
+    const zoom = mediumZoom('img[data-zoomable]');
+</script>
 </body>
 </html>
