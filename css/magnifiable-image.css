@@ -1,0 +1,11 @@
+/* CSS code for the magnifying glass icon */
+.magnifiable {
+    position: relative;
+    cursor: zoom-in;
+  }
+
+  .magnifiable:hover {
+    background: url('img/magnifying-glass.png') no-repeat center center;
+    background-size: 64px 64px;
+    cursor: zoom-in;
+  }
